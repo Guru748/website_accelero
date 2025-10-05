@@ -1,0 +1,17 @@
+{
+  "name": "accelerobotics-website",
+  "version": "1.0.0",
+  "description": "Accelerobotics website with contact form functionality",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "keywords": ["robotics", "website", "contact-form"],
+  "author": "Accelerobotics",
+  "license": "MIT"
+}
