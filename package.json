@@ -1,6 +1,7 @@
 {
   "name": "accelerobotics-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "Accelerobotics website with contact form functionality",
   "main": "index.js",
   "scripts": {
