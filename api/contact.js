@@ -129,11 +129,10 @@ export default async function handler(req, res) {
       message: 'Email sent successfully' 
     });
 
-  } catch (error) {
-    console.error('Email sending error:', error);
-    return res.status(500).json({ 
-      success: false, 
-      message: 'Failed to send email' 
-    });
-  }
+  } catch (err) {
+  console.error('Nodemailer error:', err); // This will show details in Vercel logs
+  return res.status(500).json({ success: false, message: 'Failed to send email' });
 }
+
+}
+
