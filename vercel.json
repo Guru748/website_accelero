@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/contact.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "GMAIL_USER": "gmail_user",
+    "GMAIL_APP_PASSWORD": "gmail_app_password"
+  }
+}
